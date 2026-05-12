@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMUNITY | VORTEX Built By You</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    <div id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glassmorphic">
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">VORTEX</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="community.html" class="active">Community</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                <button aria-label="Cart" class="icon-btn cart-btn" onclick="location.href='cart.html'">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Community Hero -->
+    <header class="about-hero" style="background-image: url('https://images.unsplash.com/photo-1491336477066-31156b5e4f35?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="campaign-title-wrap">
+            <h1 class="reveal-up" style="font-size: clamp(3rem, 10vw, 8rem); font-weight: 900;">BUILT BY <br><span class="accent-text">COMMUNITY</span></h1>
+            <p class="reveal-up" style="transition-delay: 0.2s;">Join the movement. Tag @VORTEX to be featured.</p>
+        </div>
+    </header>
+
+    <!-- Fit Check Gallery -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">WEEKLY <span class="accent-blue">FIT CHECK</span></h2>
+                <p class="reveal-up">The best looks from the community, curated by us.</p>
+            </div>
+            
+            <div class="community-grid">
+                <!-- User Card 1 -->
+                <div class="community-card reveal-up">
+                    <div class="comm-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1529139572177-393fbf05031c?auto=format&fit=crop&w=600&q=80" alt="Fit 1">
+                    </div>
+                    <div class="comm-meta">
+                        <div class="comm-user">
+                            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=100&q=80" alt="Avatar">
+                            <span>@leo_vortex</span>
+                        </div>
+                        <div class="comm-stats">
+                            <span>❤️ 1.2k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- User Card 2 -->
+                <div class="community-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="comm-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=600&q=80" alt="Fit 2">
+                    </div>
+                    <div class="comm-meta">
+                        <div class="comm-user">
+                            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="Avatar">
+                            <span>@jade_flux</span>
+                        </div>
+                        <div class="comm-stats">
+                            <span>❤️ 890</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- User Card 3 -->
+                <div class="community-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="comm-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80" alt="Fit 3">
+                    </div>
+                    <div class="comm-meta">
+                        <div class="comm-user">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Avatar">
+                            <span>@nova_ray</span>
+                        </div>
+                        <div class="comm-stats">
+                            <span>❤️ 2.4k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Mockup -->
+    <section class="section-padding" style="background: #151515;">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <h2 class="reveal-up">JOIN THE <span class="accent-blue">INNER CIRCLE</span></h2>
+                <p class="reveal-up">Exclusive drops, community voting, and creative feedback.</p>
+            </div>
+            
+            <div class="discord-mock reveal-up">
+                <div class="chat-bubble">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=50&q=80" alt="User" style="width: 40px; height: 40px; border-radius: 50%;">
+                    <div class="chat-content">
+                        <div class="chat-user">Xander_Void</div>
+                        <p>Yo! Next drop is inspired by the Tokyo midnight scene. Thoughts?</p>
+                    </div>
+                </div>
+                <div class="chat-bubble">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=50&q=80" alt="User" style="width: 40px; height: 40px; border-radius: 50%;">
+                    <div class="chat-content">
+                        <div class="chat-user">Jade_Flux</div>
+                        <p>Need more neon stitching! 🔥</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="#" class="btn btn-primary" style="background: #5865f2; border: none;">Join Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">VORTEX</div>
+                <p>Redefining street culture for the next generation.</p>
+                <div class="social-links">
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">TT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VORTEX STUDIO. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

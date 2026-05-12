@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP | VORTEX Premium Fashion</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme page-load-anim">
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    <div id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glassmorphic">
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">VORTEX</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                <button aria-label="Cart" class="icon-btn cart-btn" onclick="location.href='cart.html'">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shop Hero -->
+    <header class="shop-hero container">
+        <div class="reveal-up">
+            <h1 class="reveal-text">SHOP THE <span class="accent-blue">DROP</span></h1>
+            <p class="hero-subtitle">Curated essentials for the future of urban culture.</p>
+        </div>
+        
+        <div class="shop-controls reveal-up" style="transition-delay: 0.2s;">
+            <div class="search-wrap">
+                <input type="text" class="search-input" placeholder="Search for your vibe..." id="shop-search">
+            </div>
+            <div class="category-filters">
+                <button class="filter-pill active">All</button>
+                <button class="filter-pill">Oversized</button>
+                <button class="filter-pill">Streetwear</button>
+                <button class="filter-pill">Minimal</button>
+                <button class="filter-pill">Sneakers</button>
+                <button class="filter-pill">Jackets</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container section-padding">
+        <div class="shop-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar reveal-up">
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <input type="range" min="50" max="1000" value="500" class="price-slider">
+                    <div class="price-labels">
+                        <span>₹50</span>
+                        <span>₹1000</span>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Colors</h4>
+                    <div class="checkbox-list">
+                        <label class="check-item"><input type="checkbox"> Onyx Black</label>
+                        <label class="check-item"><input type="checkbox"> Ghost White</label>
+                        <label class="check-item"><input type="checkbox"> Electric Blue</label>
+                        <label class="check-item"><input type="checkbox"> Neon Green</label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Size</h4>
+                    <div class="checkbox-list">
+                        <label class="check-item"><input type="checkbox"> Small</label>
+                        <label class="check-item"><input type="checkbox"> Medium</label>
+                        <label class="check-item"><input type="checkbox"> Large</label>
+                        <label class="check-item"><input type="checkbox"> Oversized</label>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Product Grid -->
+            <div class="asym-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal-up tall">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80" alt="Hoodie" class="product-img">
+                        <img src="https://images.unsplash.com/photo-1578932750294-f50004ce59e3?auto=format&fit=crop&w=600&q=80" alt="Hoodie Back" class="img-secondary">
+                        <span class="badge new">New Arrival</span>
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cyber Hoodie V1</h3>
+                        <p class="price">₹120.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card reveal-up wide">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80" alt="Jacket" class="product-img">
+                        <img src="https://images.unsplash.com/photo-1604644401890-0bd678c83788?auto=format&fit=crop&w=800&q=80" alt="Jacket Detail" class="img-secondary">
+                        <span class="badge limited">Limited</span>
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tech-Shell Jacket</h3>
+                        <p class="price">₹285.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card reveal-up">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&q=80" alt="Sneakers" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Neon Flux Runners</h3>
+                        <p class="price">₹195.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card reveal-up">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80" alt="Cargos" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Utility Cargo Pants</h3>
+                        <p class="price">₹145.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card reveal-up wide">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Tee" class="product-img">
+                        <span class="badge new">Best Seller</span>
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Heavy Cotton Box Tee</h3>
+                        <p class="price">₹85.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Mobile Filter Trigger -->
+    <button class="mobile-filter-btn">Filters</button>
+
+    <!-- Footer (consistent with home) -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">VORTEX</div>
+                <p>Redefining street culture for the next generation.</p>
+                <div class="social-links">
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">TT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VORTEX STUDIO. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

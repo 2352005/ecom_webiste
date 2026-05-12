@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VORTEX | Premium Gen-Z Fashion</title>
+    <meta name="description" content="Discover the future of streetwear. Bold, minimal, and built for the new generation. Explore our latest premium fashion collections.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    <div id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glassmorphic">
+        <div class="nav-container">
+            <div class="logo">VORTEX</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                <button aria-label="Cart" class="icon-btn cart-btn" onclick="location.href='cart.html'">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-image-container">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1920&q=80" alt="High Fashion Streetwear Model" class="hero-bg-img">
+        </div>
+        <div class="hero-content">
+            <h1 class="reveal-text">WEAR YOUR <span class="accent-text">MOOD</span></h1>
+            <p class="hero-subtitle reveal-text-delay">Built for the New Generation. Luxury streetwear meets futuristic digital culture.</p>
+            <div class="hero-btns reveal-text-delay-2">
+                <a href="#" class="btn btn-primary">Explore Collection</a>
+                <a href="#" class="btn btn-secondary">Summer Drop 24</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse"></span>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section id="marquee">
+        <div class="marquee-content">
+            <span>LIMITED EDITION DROPS</span>
+            <span class="dot">•</span>
+            <span>SHIPPING WORLDWIDE</span>
+            <span class="dot">•</span>
+            <span>PREMIUM TECHWEAR</span>
+            <span class="dot">•</span>
+            <span>NEW COLLECTION OUT NOW</span>
+            <span class="dot">•</span>
+            <span>VORTEX STUDIO</span>
+            <span class="dot">•</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+            <span>LIMITED EDITION DROPS</span>
+            <span class="dot">•</span>
+            <span>SHIPPING WORLDWIDE</span>
+            <span class="dot">•</span>
+            <span>PREMIUM TECHWEAR</span>
+            <span class="dot">•</span>
+            <span>NEW COLLECTION OUT NOW</span>
+            <span class="dot">•</span>
+            <span>VORTEX STUDIO</span>
+            <span class="dot">•</span>
+        </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section id="featured" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">Featured <span class="accent-blue">Drops</span></h2>
+                <p class="reveal-up">Handpicked essentials for the urban explorer.</p>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal-up">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80" alt="Techwear Jacket" class="product-img">
+                        <span class="badge new">New Drop</span>
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Phantom Tech Jacket</h3>
+                        <p class="price">₹249.00</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80" alt="Oversized Tee" class="product-img">
+                        <span class="badge limited">Limited</span>
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Heavy Cotton Box Tee</h3>
+                        <p class="price">₹85.00</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Futuristic Sneakers" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Neon Flux Sneakers</h3>
+                        <p class="price">₹195.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Vibe (Asymmetrical Grid) -->
+    <section id="shop-vibe" class="section-padding">
+        <div class="container">
+            <div class="vibe-grid">
+                <div class="vibe-item large reveal-up">
+                    <div class="vibe-content">
+                        <h3>MINIMAL</h3>
+                        <p>Clean lines, muted tones.</p>
+                        <a href="#" class="btn-link">Explore</a>
+                    </div>
+                    <div class="vibe-bg" style="background-image: url('https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80')"></div>
+                </div>
+                <div class="vibe-item small reveal-up" style="transition-delay: 0.1s;">
+                    <div class="vibe-content">
+                        <h3>DARKWEAR</h3>
+                        <p>Urban shadows.</p>
+                        <a href="#" class="btn-link">Explore</a>
+                    </div>
+                    <div class="vibe-bg" style="background-image: url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80')"></div>
+                </div>
+                <div class="vibe-item small reveal-up" style="transition-delay: 0.2s;">
+                    <div class="vibe-content">
+                        <h3>FUTURE</h3>
+                        <p>Cybernetic aesthetic.</p>
+                        <a href="#" class="btn-link">Explore</a>
+                    </div>
+                    <div class="vibe-bg" style="background-image: url('https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80')"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section-padding">
+        <div class="container newsletter-wrap reveal-up">
+            <div class="newsletter-content">
+                <h2>Join the <span class="accent-green">Movement</span></h2>
+                <p>Subscribe for early access to drops and exclusive content.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">VORTEX</div>
+                <p>Redefining street culture for the next generation.</p>
+                <div class="social-links">
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">TT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Brand</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VORTEX STUDIO. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

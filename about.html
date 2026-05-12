@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT | VORTEX Brand Story</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    <div id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glassmorphic">
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">VORTEX</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                <button aria-label="Cart" class="icon-btn cart-btn" onclick="location.href='cart.html'">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <header class="about-hero" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="campaign-title-wrap">
+            <h1 class="reveal-up" style="font-size: clamp(3rem, 10vw, 8rem); font-weight: 900;">MORE THAN <br><span class="accent-text">FASHION</span></h1>
+            <p class="reveal-up" style="transition-delay: 0.2s;">Built for expression. Designed for the future of street culture.</p>
+        </div>
+    </header>
+
+    <!-- Brand Story -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="minimal-grid">
+                <div class="section-reveal">
+                    <h2 class="reveal-up" style="font-size: 3rem; font-weight: 900; margin-bottom: 20px;">OUR <span class="accent-blue">ORIGIN</span></h2>
+                    <p class="editorial-text">VORTEX was born in the neon-lit alleys of the digital age. We started as a collective of artists, hackers, and urban explorers who felt the current fashion landscape was static. We wanted to create pieces that move with the pulse of the generation.</p>
+                </div>
+                <div class="section-reveal" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=800&q=80" alt="Studio" style="border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="campaign-section section-padding">
+        <div class="container section-header">
+            <h2 class="reveal-up">THE <span class="accent-text">EVOLUTION</span></h2>
+            <p class="reveal-up">From a bedroom studio to a global movement.</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>2021</h3>
+                    <p>The first "Zero-G" hoodie drop. Sold out in 12 seconds.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>2022</h3>
+                    <p>Expanded to Tokyo and London. Launched the first digital-wear collection.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>2023</h3>
+                    <p>VORTEX STUDIO opened. A creative hub for community-led design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section-padding" style="background: #0f0f0f;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">THE <span class="accent-blue">VISIONARIES</span></h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card reveal-up">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" alt="Founder" class="team-img">
+                    <h3>Xander Void</h3>
+                    <p class="quote-author" style="font-size: 0.7rem;">Creative Director</p>
+                </div>
+                <div class="team-card reveal-up" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80" alt="Design" class="team-img">
+                    <h3>Luna Ray</h3>
+                    <p class="quote-author" style="font-size: 0.7rem;">Lead Designer</p>
+                </div>
+                <div class="team-card reveal-up" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e16fd3c?auto=format&fit=crop&w=400&q=80" alt="Tech" class="team-img">
+                    <h3>Kai Zen</h3>
+                    <p class="quote-author" style="font-size: 0.7rem;">Techwear Architect</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding">
+        <div class="container" style="text-align: center;">
+            <div class="section-reveal">
+                <h2 style="font-size: 5rem; font-weight: 900; margin-bottom: 30px;">JOIN THE <span class="accent-text">MOVEMENT</span></h2>
+                <a href="shop.html" class="btn btn-primary">Explore Drops</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">VORTEX</div>
+                <p>Redefining street culture for the next generation.</p>
+                <div class="social-links">
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">TT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VORTEX STUDIO. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
